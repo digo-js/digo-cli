@@ -1,7 +1,7 @@
 {
   "name": "digo-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "一个自动生成.gitignore文件的cli工具",
   "main": "index.js",
   "bin": {
     "digo": "bin/digo.js"
@@ -9,10 +9,15 @@
   "scripts": {
     "test": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "git",
+    "gitignore"
+  ],
+  "author": "DimplesY",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
     "commander": "^9.2.0",
     "inquirer": "^8.2.2",
     "node-fetch": "^2.6.7",
