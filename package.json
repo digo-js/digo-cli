@@ -2,7 +2,7 @@
   "name": "digo-cli",
   "version": "0.0.1",
   "description": "一个自动生成.gitignore文件的cli工具",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
     "digo": "bin/digo.js"
   },
@@ -15,7 +15,12 @@
     "gitignore"
   ],
   "author": "DimplesY",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimplesY/digo-cli.git"
+  },
+  "homepage": "https://github.com/DimplesY/digo-cli.git",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^9.2.0",
