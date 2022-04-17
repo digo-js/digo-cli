@@ -7,6 +7,7 @@
     "digo": "bin/digo.js"
   },
   "scripts": {
+    "prepublishOnly": "npm version patch",
     "test": "node src/index.js"
   },
   "keywords": [
