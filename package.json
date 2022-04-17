@@ -1,6 +1,6 @@
 {
   "name": "digo-cli",
-  "version": "0.0.4",
+  "version": "0.0.2",
   "description": "一个自动生成.gitignore文件的cli工具",
   "main": "src/index.js",
   "bin": {
